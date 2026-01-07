@@ -1,0 +1,38 @@
+.csv-page {
+  padding: 24px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.upload-card {
+  background: white;
+  padding: 40px;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.upload-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background: #1e40af;
+}
+
+.upload-hint {
+  margin-top: 14px;
+  color: #6b7280;
+  font-size: 14px;
+}

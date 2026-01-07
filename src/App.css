@@ -1,0 +1,55 @@
+.landing-wrapper {
+  min-height: 100vh;
+  background: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.landing {
+  background: #ffffff;
+  padding: 40px 48px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 420px;
+}
+
+.landing h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #1f2937;
+}
+
+.landing-subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.landing-actions {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.landing-card {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  background: #f3f4f6;
+  color: #1f2937;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.landing-card:hover {
+  background: #2563eb;
+  color: #ffffff;
+  transform: translateY(-2px);
+}

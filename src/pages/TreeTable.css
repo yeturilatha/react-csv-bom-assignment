@@ -1,0 +1,38 @@
+.tree-wrapper {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: white;
+}
+
+.tree-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 13px;
+}
+
+th, td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background: #f9fafb;
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.tree-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
